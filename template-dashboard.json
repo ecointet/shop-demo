@@ -1,0 +1,882 @@
+[ {
+  "marshallScope" : 2
+}, {
+  "marshallId" : 1,
+  "sf_dashboardConfigs" : [ {
+    "configId" : "D_Bn36fAgAA",
+    "dashboardId" : "D_Bn33eAcAA",
+    "descriptionOverride" : null,
+    "filtersOverride" : null,
+    "nameOverride" : null
+  }, {
+    "configId" : "EAoHPKKAYAA",
+    "dashboardId" : "EAoHGViAgAA",
+    "descriptionOverride" : null,
+    "filtersOverride" : null,
+    "nameOverride" : null
+  }, {
+    "configId" : "EAolz6IAcAA",
+    "dashboardId" : "EAolzxBAYAA",
+    "descriptionOverride" : null,
+    "filtersOverride" : null,
+    "nameOverride" : null
+  }, {
+    "configId" : "EBSd6kpAYAA",
+    "dashboardId" : "EBSeKg5AYAA",
+    "descriptionOverride" : null,
+    "filtersOverride" : null,
+    "nameOverride" : null
+  } ],
+  "sf_dashboards" : [ "EAolzxBAYAA", "EAoHGViAgAA", "EBSeKg5AYAA", "D_Bn33eAcAA" ],
+  "sf_description" : "ecointet@signalfx.com's Dashboard Group",
+  "sf_email" : "ecointet@signalfx.com",
+  "sf_page" : "ecointet@signalfx.com",
+  "sf_type" : "Page",
+  "sf_user" : "Etienne Cointet"
+}, {
+  "marshallId" : 2,
+  "marshallMemberOf" : [ 1 ],
+  "sf_dashboard" : "My Watch Shop!",
+  "sf_description" : "Watching your shop, Live!",
+  "sf_filterAlias" : {
+    "variables" : [ ]
+  },
+  "sf_isLocked" : false,
+  "sf_maxDelayOverride" : -1,
+  "sf_savedFilters" : {
+    "density" : 0.0,
+    "sources" : null,
+    "time" : {
+      "end" : "Now",
+      "relative" : true,
+      "start" : "-15m"
+    },
+    "variables" : null
+  },
+  "sf_selectedEventOverlays" : [ ],
+  "sf_type" : "Dashboard",
+  "sf_uiModel" : {
+    "version" : 1,
+    "widgets" : [ {
+      "col" : 6,
+      "options" : {
+        "chartId" : "EBSeKolAcAA",
+        "chartIndex" : 1563305827761,
+        "id" : 0
+      },
+      "row" : 0,
+      "sizeX" : 6,
+      "sizeY" : 1
+    }, {
+      "col" : 3,
+      "options" : {
+        "chartId" : "EBSeLAlAcAE",
+        "chartIndex" : 1563305827760,
+        "id" : 0
+      },
+      "row" : 0,
+      "sizeX" : 3,
+      "sizeY" : 1
+    }, {
+      "col" : 0,
+      "options" : {
+        "chartId" : "EBSeLRQAgAA",
+        "chartIndex" : 4935215834364981000,
+        "id" : 0
+      },
+      "row" : 0,
+      "sizeX" : 3,
+      "sizeY" : 1
+    }, {
+      "col" : 6,
+      "options" : {
+        "chartId" : "EBSeLZhAcAA",
+        "chartIndex" : 1563305827763,
+        "id" : 0
+      },
+      "row" : 1,
+      "sizeX" : 6,
+      "sizeY" : 1
+    }, {
+      "col" : 0,
+      "options" : {
+        "chartId" : "EBSeKpsAgAA",
+        "chartIndex" : 1563305827762,
+        "id" : 0
+      },
+      "row" : 1,
+      "sizeX" : 6,
+      "sizeY" : 1
+    }, {
+      "col" : 0,
+      "options" : {
+        "chartId" : "EBSeLgoAYNc",
+        "chartIndex" : 1563355698593,
+        "id" : 0
+      },
+      "row" : 2,
+      "sizeX" : 3,
+      "sizeY" : 1
+    }, {
+      "col" : 3,
+      "options" : {
+        "chartId" : "EBSeLDRAgAA",
+        "chartIndex" : 1563355698596,
+        "id" : 0
+      },
+      "row" : 2,
+      "sizeX" : 3,
+      "sizeY" : 1
+    }, {
+      "col" : 6,
+      "options" : {
+        "chartId" : "EBSeLXPAYAA",
+        "chartIndex" : 1565096748094,
+        "id" : 0
+      },
+      "row" : 2,
+      "sizeX" : 6,
+      "sizeY" : 1
+    }, {
+      "col" : 0,
+      "options" : {
+        "chartId" : "EBSeLHiAYAA",
+        "chartIndex" : 1565015012910,
+        "id" : 0
+      },
+      "row" : 3,
+      "sizeX" : 12,
+      "sizeY" : 1
+    }, {
+      "col" : 0,
+      "options" : {
+        "chartId" : "EBSeLfMAgAE",
+        "chartIndex" : 1565079193964,
+        "id" : 0
+      },
+      "row" : 4,
+      "sizeX" : 3,
+      "sizeY" : 1
+    }, {
+      "col" : 6,
+      "options" : {
+        "chartId" : "EBSeLQNAcAA",
+        "chartIndex" : 8034670070977092000,
+        "id" : 0
+      },
+      "row" : 4,
+      "sizeX" : 6,
+      "sizeY" : 1
+    }, {
+      "col" : 3,
+      "options" : {
+        "chartId" : "EBShJwXAgAA",
+        "chartIndex" : 1565098440216,
+        "id" : 0
+      },
+      "row" : 4,
+      "sizeX" : 3,
+      "sizeY" : 1
+    } ]
+  }
+}, {
+  "marshallId" : 3,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "Memory Used %",
+  "sf_chartIndex" : 1563355698593,
+  "sf_dashboardId" : "EBSeKg5AYAA",
+  "sf_description" : "",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "A = data('memory.utilization', filter=filter('host', 'my-webserver')).publish(label='A')",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "colorBy" : "Metric",
+    "colorScale" : null,
+    "colorScale2" : null,
+    "maximumPrecision" : 3,
+    "programOptions" : {
+      "disableSampling" : false,
+      "maxDelay" : null,
+      "minimumResolution" : 0,
+      "timezone" : null
+    },
+    "publishLabelOptions" : [ {
+      "displayName" : "free",
+      "label" : "A",
+      "paletteIndex" : 14,
+      "plotType" : null,
+      "valuePrefix" : null,
+      "valueSuffix" : null,
+      "valueUnit" : null,
+      "yAxis" : 0
+    } ],
+    "refreshInterval" : 1000,
+    "secondaryVisualization" : "None",
+    "showSparkLine" : false,
+    "time" : {
+      "range" : 900000,
+      "type" : "relative"
+    },
+    "timestampHidden" : false,
+    "type" : "SingleValue",
+    "unitPrefix" : "Metric"
+  }
+}, {
+  "marshallId" : 4,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "Number of Requests",
+  "sf_chartIndex" : 1563305827762,
+  "sf_dashboardId" : "EBSeKg5AYAA",
+  "sf_description" : "",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "A = data('nginx_requests', filter=filter('host', 'my-webserver'), rollup='rate').publish(label='A')",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "areaChartOptions" : {
+      "showDataMarkers" : false
+    },
+    "axes" : [ {
+      "highWatermark" : null,
+      "highWatermarkLabel" : null,
+      "label" : "",
+      "lowWatermark" : null,
+      "lowWatermarkLabel" : null,
+      "max" : null,
+      "min" : null
+    }, {
+      "highWatermark" : null,
+      "highWatermarkLabel" : null,
+      "label" : "",
+      "lowWatermark" : null,
+      "lowWatermarkLabel" : null,
+      "max" : null,
+      "min" : null
+    } ],
+    "axisPrecision" : null,
+    "colorBy" : "Dimension",
+    "defaultPlotType" : "AreaChart",
+    "eventPublishLabelOptions" : [ ],
+    "histogramChartOptions" : {
+      "colorThemeIndex" : 16
+    },
+    "includeZero" : false,
+    "legendOptions" : {
+      "fields" : null
+    },
+    "lineChartOptions" : {
+      "showDataMarkers" : false
+    },
+    "onChartLegendOptions" : {
+      "dimensionInLegend" : null,
+      "showLegend" : false
+    },
+    "programOptions" : {
+      "disableSampling" : false,
+      "maxDelay" : 0,
+      "minimumResolution" : 0,
+      "timezone" : null
+    },
+    "publishLabelOptions" : [ {
+      "displayName" : "nginx_requests",
+      "label" : "A",
+      "paletteIndex" : null,
+      "plotType" : "AreaChart",
+      "valuePrefix" : null,
+      "valueSuffix" : null,
+      "valueUnit" : null,
+      "yAxis" : 0
+    } ],
+    "showEventLines" : false,
+    "stacked" : false,
+    "time" : {
+      "range" : 900000,
+      "type" : "relative"
+    },
+    "type" : "TimeSeriesChart",
+    "unitPrefix" : "Metric"
+  }
+}, {
+  "marshallId" : 5,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "Watches Sold per second",
+  "sf_chartIndex" : 1565098440216,
+  "sf_dashboardId" : "EBSeKg5AYAA",
+  "sf_description" : "The number of smart watches added in the shopping cart, in second.",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "B = data('ecointet.watch.sold', rollup='count', extrapolation='zero').sum().publish(label='B')",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "colorBy" : "Scale",
+    "colorScale" : null,
+    "colorScale2" : [ {
+      "gt" : null,
+      "gte" : 5.0,
+      "lt" : null,
+      "lte" : 13.0,
+      "paletteIndex" : 20
+    }, {
+      "gt" : null,
+      "gte" : 2.0,
+      "lt" : 5.0,
+      "lte" : null,
+      "paletteIndex" : 18
+    }, {
+      "gt" : null,
+      "gte" : 0.0,
+      "lt" : 2.0,
+      "lte" : null,
+      "paletteIndex" : 0
+    } ],
+    "maximumPrecision" : null,
+    "programOptions" : {
+      "disableSampling" : true,
+      "maxDelay" : 0,
+      "minimumResolution" : 0,
+      "timezone" : null
+    },
+    "publishLabelOptions" : [ {
+      "displayName" : "ecointet.watch.sold - Sum",
+      "label" : "B",
+      "paletteIndex" : 13,
+      "plotType" : null,
+      "valuePrefix" : null,
+      "valueSuffix" : "watches sold",
+      "valueUnit" : null,
+      "yAxis" : 0
+    } ],
+    "refreshInterval" : 1000,
+    "secondaryVisualization" : "Radial",
+    "showSparkLine" : false,
+    "time" : {
+      "range" : 900000,
+      "type" : "relative"
+    },
+    "timestampHidden" : false,
+    "type" : "SingleValue",
+    "unitPrefix" : "Metric"
+  }
+}, {
+  "marshallId" : 6,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "CPU Used %",
+  "sf_chartIndex" : 1563355698596,
+  "sf_dashboardId" : "EBSeKg5AYAA",
+  "sf_description" : "",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "A = data('cpu.utilization', filter=filter('host', 'my-webserver'), rollup='average').publish(label='A')",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "colorBy" : "Dimension",
+    "colorScale" : null,
+    "colorScale2" : null,
+    "maximumPrecision" : 3,
+    "programOptions" : {
+      "disableSampling" : false,
+      "maxDelay" : null,
+      "minimumResolution" : 0,
+      "timezone" : null
+    },
+    "publishLabelOptions" : [ {
+      "displayName" : "cpu.utilization",
+      "label" : "A",
+      "paletteIndex" : null,
+      "plotType" : null,
+      "valuePrefix" : null,
+      "valueSuffix" : null,
+      "valueUnit" : null,
+      "yAxis" : 0
+    } ],
+    "refreshInterval" : 1000,
+    "secondaryVisualization" : "None",
+    "showSparkLine" : false,
+    "time" : {
+      "range" : 900000,
+      "type" : "relative"
+    },
+    "timestampHidden" : false,
+    "type" : "SingleValue",
+    "unitPrefix" : "Metric"
+  }
+}, {
+  "marshallId" : 7,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "Total Watches Sold!",
+  "sf_chartIndex" : 1565079193964,
+  "sf_dashboardId" : "EBSeKg5AYAA",
+  "sf_description" : "Number of watches sold (last 5 minutes)",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "B = data('ecointet.watch.sold', rollup='sum', extrapolation='zero').sum(over='5m').sum().publish(label='B')",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "colorBy" : "Scale",
+    "colorScale" : null,
+    "colorScale2" : [ {
+      "gt" : 20.0,
+      "gte" : null,
+      "lt" : null,
+      "lte" : null,
+      "paletteIndex" : 20
+    }, {
+      "gt" : null,
+      "gte" : null,
+      "lt" : null,
+      "lte" : 20.0,
+      "paletteIndex" : 16
+    } ],
+    "maximumPrecision" : null,
+    "programOptions" : {
+      "disableSampling" : true,
+      "maxDelay" : 0,
+      "minimumResolution" : 0,
+      "timezone" : null
+    },
+    "publishLabelOptions" : [ {
+      "displayName" : "ecointet.watch.sold - Sum(5m) - Sum",
+      "label" : "B",
+      "paletteIndex" : null,
+      "plotType" : null,
+      "valuePrefix" : null,
+      "valueSuffix" : null,
+      "valueUnit" : null,
+      "yAxis" : 0
+    } ],
+    "refreshInterval" : 1000,
+    "secondaryVisualization" : "None",
+    "showSparkLine" : false,
+    "time" : {
+      "range" : 900000,
+      "type" : "relative"
+    },
+    "timestampHidden" : false,
+    "type" : "SingleValue",
+    "unitPrefix" : "Metric"
+  }
+}, {
+  "marshallId" : 8,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "Watches in Shopping Carts",
+  "sf_chartIndex" : 4935215834364981000,
+  "sf_dashboardId" : "EBSeKg5AYAA",
+  "sf_description" : "Number of watches in the shopping cart (last 5 minutes)",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "B = data('ecointet.watch.cart', rollup='sum', extrapolation='zero').sum(over='5m').sum().publish(label='B')",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "colorBy" : "Metric",
+    "colorScale" : null,
+    "colorScale2" : null,
+    "maximumPrecision" : null,
+    "programOptions" : {
+      "disableSampling" : true,
+      "maxDelay" : 0,
+      "minimumResolution" : 0,
+      "timezone" : null
+    },
+    "publishLabelOptions" : [ {
+      "displayName" : "ecointet.watch.cart - Sum(5m) - Sum",
+      "label" : "B",
+      "paletteIndex" : null,
+      "plotType" : null,
+      "valuePrefix" : null,
+      "valueSuffix" : null,
+      "valueUnit" : null,
+      "yAxis" : 0
+    } ],
+    "refreshInterval" : 1000,
+    "secondaryVisualization" : "None",
+    "showSparkLine" : false,
+    "time" : {
+      "range" : 900000,
+      "type" : "relative"
+    },
+    "timestampHidden" : false,
+    "type" : "SingleValue",
+    "unitPrefix" : "Metric"
+  }
+}, {
+  "marshallId" : 9,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "Watches added per second",
+  "sf_chartIndex" : 1563305827760,
+  "sf_dashboardId" : "EBSeKg5AYAA",
+  "sf_description" : "The number of smart watches added in the shopping cart, in second.",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "B = data('ecointet.watch.cart', rollup='count', extrapolation='zero').sum().publish(label='B')",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "colorBy" : "Scale",
+    "colorScale" : null,
+    "colorScale2" : [ {
+      "gt" : null,
+      "gte" : 5.0,
+      "lt" : null,
+      "lte" : 13.0,
+      "paletteIndex" : 20
+    }, {
+      "gt" : null,
+      "gte" : 2.0,
+      "lt" : 5.0,
+      "lte" : null,
+      "paletteIndex" : 18
+    }, {
+      "gt" : null,
+      "gte" : 0.0,
+      "lt" : 2.0,
+      "lte" : null,
+      "paletteIndex" : 0
+    } ],
+    "maximumPrecision" : null,
+    "programOptions" : {
+      "disableSampling" : true,
+      "maxDelay" : 0,
+      "minimumResolution" : 0,
+      "timezone" : null
+    },
+    "publishLabelOptions" : [ {
+      "displayName" : "ecointet.watch.cart - Sum",
+      "label" : "B",
+      "paletteIndex" : 13,
+      "plotType" : null,
+      "valuePrefix" : null,
+      "valueSuffix" : "watches sold",
+      "valueUnit" : null,
+      "yAxis" : 0
+    } ],
+    "refreshInterval" : 1000,
+    "secondaryVisualization" : "Radial",
+    "showSparkLine" : false,
+    "time" : {
+      "range" : 900000,
+      "type" : "relative"
+    },
+    "timestampHidden" : false,
+    "type" : "SingleValue",
+    "unitPrefix" : "Metric"
+  }
+}, {
+  "marshallId" : 10,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "Watches sold VS Watches in the Shoping Cart",
+  "sf_chartIndex" : 8034670070977092000,
+  "sf_dashboardId" : "EBSeKg5AYAA",
+  "sf_description" : "",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "D = ((B/A)*100).publish(label='D')\nB = data('ecointet.watch.sold', rollup='sum', extrapolation='zero').sum(over='5m').sum().publish(label='B', enable=False)\nA = data('ecointet.watch.cart', rollup='sum', extrapolation='zero').sum(over='5m').sum().publish(label='A', enable=False)",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "colorBy" : "Scale",
+    "colorScale" : null,
+    "colorScale2" : [ {
+      "gt" : 50.0,
+      "gte" : null,
+      "lt" : null,
+      "lte" : 100.0,
+      "paletteIndex" : 20
+    }, {
+      "gt" : 20.0,
+      "gte" : null,
+      "lt" : null,
+      "lte" : 50.0,
+      "paletteIndex" : 17
+    }, {
+      "gt" : null,
+      "gte" : 0.0,
+      "lt" : null,
+      "lte" : 20.0,
+      "paletteIndex" : 16
+    } ],
+    "maximumPrecision" : null,
+    "programOptions" : {
+      "disableSampling" : false,
+      "maxDelay" : 0,
+      "minimumResolution" : 0,
+      "timezone" : null
+    },
+    "publishLabelOptions" : [ {
+      "displayName" : "D",
+      "label" : "D",
+      "paletteIndex" : null,
+      "plotType" : null,
+      "valuePrefix" : null,
+      "valueSuffix" : "%",
+      "valueUnit" : null,
+      "yAxis" : 0
+    }, {
+      "displayName" : "B",
+      "label" : "B",
+      "paletteIndex" : null,
+      "plotType" : null,
+      "valuePrefix" : null,
+      "valueSuffix" : null,
+      "valueUnit" : null,
+      "yAxis" : 0
+    }, {
+      "displayName" : "A",
+      "label" : "A",
+      "paletteIndex" : null,
+      "plotType" : null,
+      "valuePrefix" : null,
+      "valueSuffix" : null,
+      "valueUnit" : null,
+      "yAxis" : 0
+    } ],
+    "refreshInterval" : 1000,
+    "secondaryVisualization" : "Linear",
+    "showSparkLine" : false,
+    "time" : {
+      "range" : 900000,
+      "type" : "relative"
+    },
+    "timestampHidden" : false,
+    "type" : "SingleValue",
+    "unitPrefix" : "Metric"
+  }
+}, {
+  "marshallId" : 11,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "Customers Online!",
+  "sf_chartIndex" : 1563305827763,
+  "sf_dashboardId" : "EBSeKg5AYAA",
+  "sf_description" : "",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "A = data('nginx_connections.active', filter=filter('host', 'my-webserver'), rollup='latest', extrapolation='zero').publish(label='A')",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "colorBy" : "Scale",
+    "colorScale" : null,
+    "colorScale2" : [ {
+      "gt" : 10.0,
+      "gte" : null,
+      "lt" : null,
+      "lte" : 20.0,
+      "paletteIndex" : 20
+    }, {
+      "gt" : 3.0,
+      "gte" : null,
+      "lt" : null,
+      "lte" : 10.0,
+      "paletteIndex" : 18
+    }, {
+      "gt" : null,
+      "gte" : 0.0,
+      "lt" : null,
+      "lte" : 3.0,
+      "paletteIndex" : 16
+    } ],
+    "maximumPrecision" : null,
+    "programOptions" : {
+      "disableSampling" : false,
+      "maxDelay" : null,
+      "minimumResolution" : 0,
+      "timezone" : null
+    },
+    "publishLabelOptions" : [ {
+      "displayName" : "nginx_connections.active",
+      "label" : "A",
+      "paletteIndex" : null,
+      "plotType" : null,
+      "valuePrefix" : null,
+      "valueSuffix" : "customer(s)",
+      "valueUnit" : null,
+      "yAxis" : 0
+    } ],
+    "refreshInterval" : 1000,
+    "secondaryVisualization" : "Linear",
+    "showSparkLine" : false,
+    "time" : {
+      "range" : 60000,
+      "type" : "relative"
+    },
+    "timestampHidden" : false,
+    "type" : "SingleValue",
+    "unitPrefix" : "Metric"
+  }
+}, {
+  "marshallId" : 12,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "Active Connection States",
+  "sf_chartIndex" : 1565096748094,
+  "sf_dashboardId" : "EBSeKg5AYAA",
+  "sf_description" : "",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "A = data('nginx_connections.reading', filter=filter('host', 'my-webserver') and filter('plugin', 'nginx')).sum().publish(label='A')\nB = data('nginx_connections.writing', filter=filter('host', 'my-webserver') and filter('plugin', 'nginx')).sum().publish(label='B')\nC = data('nginx_connections.waiting', filter=filter('host', 'my-webserver') and filter('plugin', 'nginx')).sum().publish(label='C')",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "areaChartOptions" : {
+      "showDataMarkers" : false
+    },
+    "axes" : [ {
+      "highWatermark" : null,
+      "highWatermarkLabel" : null,
+      "label" : "# connections",
+      "lowWatermark" : null,
+      "lowWatermarkLabel" : null,
+      "max" : null,
+      "min" : 0.0
+    }, {
+      "highWatermark" : null,
+      "highWatermarkLabel" : null,
+      "label" : "",
+      "lowWatermark" : null,
+      "lowWatermarkLabel" : null,
+      "max" : null,
+      "min" : null
+    } ],
+    "axisPrecision" : null,
+    "colorBy" : "Dimension",
+    "defaultPlotType" : "AreaChart",
+    "eventPublishLabelOptions" : [ ],
+    "histogramChartOptions" : {
+      "colorThemeIndex" : 16
+    },
+    "includeZero" : false,
+    "legendOptions" : {
+      "fields" : null
+    },
+    "lineChartOptions" : {
+      "showDataMarkers" : false
+    },
+    "onChartLegendOptions" : {
+      "dimensionInLegend" : null,
+      "showLegend" : false
+    },
+    "programOptions" : {
+      "disableSampling" : false,
+      "maxDelay" : null,
+      "minimumResolution" : 0,
+      "timezone" : null
+    },
+    "publishLabelOptions" : [ {
+      "displayName" : "reading headers",
+      "label" : "A",
+      "paletteIndex" : 3,
+      "plotType" : null,
+      "valuePrefix" : null,
+      "valueSuffix" : null,
+      "valueUnit" : null,
+      "yAxis" : 0
+    }, {
+      "displayName" : "writing response",
+      "label" : "B",
+      "paletteIndex" : 14,
+      "plotType" : null,
+      "valuePrefix" : null,
+      "valueSuffix" : null,
+      "valueUnit" : null,
+      "yAxis" : 0
+    }, {
+      "displayName" : "waiting to send response",
+      "label" : "C",
+      "paletteIndex" : 4,
+      "plotType" : null,
+      "valuePrefix" : null,
+      "valueSuffix" : null,
+      "valueUnit" : null,
+      "yAxis" : 0
+    } ],
+    "showEventLines" : false,
+    "stacked" : true,
+    "time" : {
+      "range" : 3600000,
+      "type" : "relative"
+    },
+    "type" : "TimeSeriesChart",
+    "unitPrefix" : "Metric"
+  }
+}, {
+  "marshallId" : 13,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "Watch Your SHOP!",
+  "sf_chartIndex" : 1563305827761,
+  "sf_dashboardId" : "EBSeKg5AYAA",
+  "sf_description" : "",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "markdown" : "<img align='right' src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAACXBIWXMAAA3XAAAN1wFCKJt4AAAFIGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDUgNzkuMTYzNDk5LCAyMDE4LzA4LzEzLTE2OjQwOjIyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOSAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjIwMTktMDctMzFUMDk6NDA6MzQrMDI6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDE5LTA3LTMxVDA5OjQ0OjUwKzAyOjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDE5LTA3LTMxVDA5OjQ0OjUwKzAyOjAwIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyIgcGhvdG9zaG9wOklDQ1Byb2ZpbGU9InNSR0IgSUVDNjE5NjYtMi4xIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjBhMGMzZDFjLWEw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'/>\n##Be focus on your Business!\n###Live shopping ...    ¯\\_(ツ)_/¯",
+    "type" : "Text"
+  }
+}, {
+  "marshallId" : 14,
+  "marshallMemberOf" : [ 2 ],
+  "sf_chart" : "Who is trying to buy!",
+  "sf_chartIndex" : 1565015012910,
+  "sf_dashboardId" : "EBSeKg5AYAA",
+  "sf_description" : "Number of watches added in a shopping bag, by customers",
+  "sf_modelVersion" : 2,
+  "sf_packageSpecifications" : "",
+  "sf_programText" : "A = data('ecointet.watch.cart', rollup='sum', extrapolation='zero').above(0).sum(by=['customer']).sum(over='5m').publish(label='A')",
+  "sf_type" : "Chart",
+  "sf_visualizationOptions" : {
+    "colorBy" : "Scale",
+    "colorRange" : null,
+    "colorScale" : null,
+    "colorScale2" : [ {
+      "gt" : 10.0,
+      "gte" : null,
+      "lt" : null,
+      "lte" : null,
+      "paletteIndex" : 16
+    }, {
+      "gt" : 8.0,
+      "gte" : null,
+      "lt" : null,
+      "lte" : 10.0,
+      "paletteIndex" : 17
+    }, {
+      "gt" : 6.0,
+      "gte" : null,
+      "lt" : null,
+      "lte" : 8.0,
+      "paletteIndex" : 18
+    }, {
+      "gt" : 4.0,
+      "gte" : null,
+      "lt" : null,
+      "lte" : 6.0,
+      "paletteIndex" : 19
+    }, {
+      "gt" : null,
+      "gte" : null,
+      "lt" : null,
+      "lte" : 4.0,
+      "paletteIndex" : 20
+    } ],
+    "groupBy" : [ ],
+    "programOptions" : {
+      "disableSampling" : true,
+      "maxDelay" : 0,
+      "minimumResolution" : 0,
+      "timezone" : null
+    },
+    "publishLabelOptions" : [ {
+      "displayName" : "ecointet.watch.cart - Exclude x <= 0 - Sum by customer - Sum(5m)",
+      "label" : "A",
+      "valuePrefix" : "",
+      "valueSuffix" : "",
+      "valueUnit" : null
+    } ],
+    "refreshInterval" : 1000,
+    "sortDirection" : "Ascending",
+    "sortProperty" : null,
+    "time" : {
+      "range" : 900000,
+      "type" : "relative"
+    },
+    "timestampHidden" : false,
+    "type" : "Heatmap",
+    "unitPrefix" : "Metric"
+  }
+} ]
