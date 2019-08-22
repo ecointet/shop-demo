@@ -1,8 +1,17 @@
 <?php
 session_start();
 require("tools.php");
+require_once "mobile-detect/Mobile_Detect.php";
 
-$_SESSION["device"] = substr($_SERVER['HTTP_USER_AGENT'], 0, 10);
+$detect = new Mobile_Detect;
+if (!$detect->isMobile()) $device = "Computer";
+else if ($detect->isiPhone()) $device = "iPhone";
+else if ($detect->isSamsung()) $device = "Samsung";
+else if ($detect->isAndroidOS()) $device = "Android";
+
+$_SESSION["device"] = $device;
+
+
 if (!isset($_SESSION['buyer']))
 {
     $_SESSION['buyer'] = readable_random_string();
@@ -217,7 +226,7 @@ function DoAction(v_action, v_value)
 							echo $url;
 							?></h1>
 							<p>
-								<div style="align:center;font-size:15px">Get yours by today!</div>
+								<div style="align:center;font-size:15px">Get the shoes!</div>
 								<?php echo '<img src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=http%3A%2F%2F'.$url.'"%2F&choe=UTF-8" width="100%">'; ?>
 							</p>
 						</div>
