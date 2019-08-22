@@ -69,6 +69,13 @@ function DoAction(v_action, v_value)
 		function Checkout(v_metric, v_value)
 			{
 				v_value = window.count_wallet;
+				
+				if (v_value <= 0)
+				{
+					$("div.shoppingcart" ).html("<p>EMPTY!</p>");
+					return;
+				}
+
 				$( ".shoppingcart" ).show();
 				$("div.shoppingcart" ).html("<p><img src='img/loader.gif' width='40px' marging-bottom:'15px'></p>");
 				console.log("Try to send ["+v_metric+"] and ["+v_value+"]");
