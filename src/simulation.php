@@ -27,10 +27,10 @@ function CreateUrls($customers = 10)
     for ( $i = 0; $i < $customers; $i++) 
     {
         //SEND MONEY
-        $data .= "http://localhost:8000/api-signalfx.php?metric=".$_ENV["BUYMETRIC"].".sent&value=50&customer=".readable_random_string()."\n";
-        $data .= "http://localhost:8000/api-signalfx.php?metric=".$_ENV["BUYMETRIC"].".sent&value=20&customer=".readable_random_string()."\n";
+        $data .= "http://localhost:8000/api-signalfx.php?metric=".$_ENV["BUYMETRIC"].".sold&value=10&customer=".readable_random_string()."\n";
+        $data .= "http://localhost:8000/api-signalfx.php?metric=".$_ENV["BUYMETRIC"].".cart&value=1&customer=".readable_random_string()."\n";
         //GET MONEY
-        $data .= "http://localhost:8000/api-signalfx.php?metric=".$_ENV["BUYMETRIC"].".refounded&value=15&customer=".readable_random_string()."\n";
+        $data .= "http://localhost:8000/api-signalfx.php?metric=".$_ENV["BUYMETRIC"].".cart&value=1&customer=".readable_random_string()."\n";
     }
 
     return $data;

@@ -2362,7 +2362,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-    background: url(../img/header-bg.png) center;
+    /* BACKGROUND */
+    background: url(../img/g63-bg.png) center;
     background-size: cover;
 }
 

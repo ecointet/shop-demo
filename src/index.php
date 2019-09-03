@@ -172,12 +172,12 @@ function DoAction(v_action, v_value)
 			    <div class="container">
 			    	<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
-				        <a href="/"><img src="img/logo.png" alt="" title="" /></a>
+				        <a href="/"><img src="img/logo-claranet.png" alt="" title="" /></a>
 				      </div>
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
 				          <li class="menu-active"><a href="#home">Home</a></li>
-				        <!--  <li><a href="javascript:Simulation();">simulate Customers</a></li>-->
+				          <li><a href="javascript:Simulation();">simulate Customers</a></li>
 				          <li><a href="#service">share with people</a></li>
 						  <li><a href="/listen">Feedbacks</a></li>
 				          <li><a href="#faq">Faq</a></li>
@@ -210,7 +210,7 @@ function DoAction(v_action, v_value)
 							<div style="margin:0 auto; margin-bottom:10px" id="SV Fintechn Corp.shoppingcart" name="shoppingcart" class="shoppingcart"><p>0</p></div>
 							<h5 class="text-white text-uppercase"></h5>
 							<h1>
-								<?php if ($_GET['company']) echo $_GET['company']."'s watch!"; else echo ""; ?>				
+								<?php if ($_GET['company']) echo $_GET['company']; else echo ""; ?>				
 							</h1>
 							<a href="javascript:AddToCart('<?php echo $_ENV["BUYMETRIC"]; ?>.cart', '1');" class="primary-btn text-uppercase">Add To Cart</a>
 							<a href="javascript:Checkout('<?php echo $_ENV["BUYMETRIC"]; ?>.sold', '1');" class="primary-btn text-uppercase">Checkout!</a>
