@@ -35,8 +35,8 @@ function readable_random_string($length = 6)
 <?php
 // API SIGNAL FX TO END CUSTOM METRICS
 // <ecointet@signalfx.com
-//$db = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/db.txt");
-$db = "0";
+$db = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/db.txt");
+//$db = "0";
 if ($_GET['metric'] && $_GET['value'] && ($db == "0" || $_GET['metric'] == "ecointet.shop.cart"))
     echo sendCommand($_GET['metric'], $_GET['value']);
 else    
