@@ -169,7 +169,7 @@ function DoAction(v_action, v_value)
 }
 .banner-area {
     /* BACKGROUND */
-    background: url(../img/type/<? echo $_ENV["TYPE"]; ?>/background.png) center;
+    background: url(https://raw.githubusercontent.com/ecointet/shop-demo/master/src/img/type/<? echo $_ENV["TYPE"]; ?>/background.png) center;
     background-size: cover;
 }
 </style>
@@ -177,7 +177,7 @@ function DoAction(v_action, v_value)
 			    <div class="container">
 			    	<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
-				        <a href="/"><img src="img/customer/<? echo $_ENV["CUSTOMER"]; ?>.png" alt="" title="" height="30px"/></a>
+				        <a href="/"><img src="https://raw.githubusercontent.com/ecointet/shop-demo/master/src/img/customer/<? echo $_ENV["CUSTOMER"]; ?>.png" alt="" title="" height="30px"/></a>
 				      </div>
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
