@@ -18,5 +18,5 @@ services:
             - HOST=my-webserver
             - REALM=us0
             - BUYMETRIC=ecointet.shop
-            - TYPE=job
-            - CUSTOMER=jobteaser
+            - BACKGROUND=https://miro.medium.com/max/2658/1*2NArbYb4bKnnacnGKphY8g.jpeg
+            - LOGO=https://upload.wikimedia.org/wikipedia/fr/0/09/Logo_JobTeaser.png

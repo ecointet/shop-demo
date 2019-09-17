@@ -169,7 +169,7 @@ function DoAction(v_action, v_value)
 }
 .banner-area {
     /* BACKGROUND */
-    background: url(https://raw.githubusercontent.com/ecointet/shop-demo/master/src/img/type/<? echo $_ENV["TYPE"]; ?>/background.png) center;
+    background: url(<? echo $_ENV["BACKGROUND"]; ?>) center;
     background-size: cover;
 }
 </style>
@@ -177,7 +177,7 @@ function DoAction(v_action, v_value)
 			    <div class="container">
 			    	<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
-				        <a href="/"><img src="https://raw.githubusercontent.com/ecointet/shop-demo/master/src/img/customer/<? echo $_ENV["CUSTOMER"]; ?>.png" alt="" title="" height="30px"/></a>
+				        <a href="/"><img src="<? echo $_ENV["LOGO"]; ?>" alt="" title="" height="30px"/></a>
 				      </div>
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
@@ -238,7 +238,7 @@ function DoAction(v_action, v_value)
 							echo $url;
 							?></h1>
 							<p>
-								<div style="align:center;font-size:15px">Get the shoes!</div>
+								<div style="align:center;font-size:15px">Play The Game!</div>
 								<?php echo '<img src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=http%3A%2F%2F'.$url.'"%2F&choe=UTF-8" width="100%">'; ?>
 							</p>
 						</div>
