@@ -18,3 +18,5 @@ services:
             - HOST=my-webserver
             - REALM=us0
             - BUYMETRIC=ecointet.shop
+            - TYPE=shoes
+            - CUSTOMER=justdoit

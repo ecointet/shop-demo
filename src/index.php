@@ -33,7 +33,7 @@ if (!isset($_SESSION['buyer']))
 		<!-- meta character set -->
 		<meta charset="UTF-8">
 		<!-- Site Title -->
-		<title>Watch</title>
+		<title>Online Shopping!</title>
 
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
 			<!--
@@ -167,12 +167,17 @@ function DoAction(v_action, v_value)
     font-size: 30px;
 
 }
+.banner-area {
+    /* BACKGROUND */
+    background: url(../img/type/<? echo $_ENV["TYPE"]; ?>/background.png) center;
+    background-size: cover;
+}
 </style>
 			  <header id="header" id="home">
 			    <div class="container">
 			    	<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
-				        <a href="/"><img src="img/logo-claranet.png" alt="" title="" /></a>
+				        <a href="/"><img src="img/customer/<? echo $_ENV["CUSTOMER"]; ?>.png" alt="" title="" height="30px"/></a>
 				      </div>
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
