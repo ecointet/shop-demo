@@ -14,9 +14,9 @@ services:
             - /usr/data/var
         privileged: true
         environment:
-            - TOKEN=Yl_utY2wIV8sfCCsekTHhA
+            - TOKEN=
             - HOST=my-webserver
             - REALM=us0
             - BUYMETRIC=ecointet.shop
-            - TYPE=shoes
-            - CUSTOMER=justdoit
+            - TYPE=job
+            - CUSTOMER=jobteaser
