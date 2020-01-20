@@ -18,8 +18,6 @@ Add to your cart as many as items your want, and check out!
 
 - Configure your own SignalFx Detector : Ex: send a slack message if more than 13 items are in cart but not sold.
 
-![Main Screen](https://github.com/ecointet/shop-demo/blob/master/src/img/pwnyshop.png?raw=true)
-
 ## Configuration
 
 ### STEP 1
