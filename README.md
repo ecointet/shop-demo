@@ -1,15 +1,13 @@
-# Fintech Demo
-A Cool Website (desktop & mobile) to demonstrate the SignalFx real-time monitoring.
-Buy many watches and check your Business & Infrastructure in the same dashboard.
+# The Pwny Shop! (Demo)
+A Cool Website (desktop & mobile) to demonstrate the Splunk SignalFx real-time monitoring.
+Add to your cart as many as items your want, and check out!
 
-![Main Screen](https://github.com/ecointet/watch-store/blob/master/src/img/screen1.png?raw=true)
-
-![Dashboard Screen](https://github.com/ecointet/watch-store/blob/master/src/img/screen2.png?raw=true)
+![Main Screen](https://github.com/ecointet/watch-store/blob/master/src/img/github-overview.png?raw=true)
 
 ## Features
 
-- Watches bought from the last 5 minutes
-- Watches sold by seconds
+- Items bought from the last 5 minutes
+- Items sold by seconds
 - Number of visitors / customers
 - CPU / RAM of the Webserver (Nginx)
 - Number of requests / seconds
@@ -18,7 +16,7 @@ Buy many watches and check your Business & Infrastructure in the same dashboard.
 
 ## Alerting
 
-- Configure your own SignalFx Detector : Ex: send a slack message if more than 13 watches are sold per seconds.
+- Configure your own SignalFx Detector : Ex: send a slack message if more than 13 items are in cart but not sold.
 
 ## Configuration
 
@@ -47,12 +45,11 @@ Then import the file/dashboard to your [SignalFx app](app.signalfx.com)
 
 In the main folder (watch-store), Execute the commande `docker-compose up`
 
-And go to [localhost:8181](http://localhost:8181/?company=Etiennem)
-
-You can change the variable **company name** by your customer name.
+And go to [localhost:8181](http://localhost:8181)
 
 ### BONUS
 
 - Debug info in the menu "DEBUG"
 - Simulate customers & buyers with the button "Simulate Buyers"
 - Share the app with the button "Share with people"
+- Customize the app by pasting IMG URLs in the docker-compose.yml file

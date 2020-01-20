@@ -53,7 +53,7 @@ function sendCommand($metric, $value)
     $data .= ' --header "X-SF-TOKEN: '.$_ENV["TOKEN"].'"';
 
    // if(is_integer($value))$_SESSION['device']
-        $data .= ' --data \'{ "gauge": [{"metric": "'.$metric.'", "value": '.$value.', "dimensions": { "customer": "'.$buyer.'", "platform": "'.$_SESSION["device"].'" }}]}\'';
+        $data .= ' --data \'{ "gauge": [{"metric": "'.$metric.'", "value": '.$value.', "dimensions": {"customer": "'.$buyer.'", "platform": "'.$_SESSION["device"].'" }}]}\'';
     //else
       //  $data .= ' --data \'{"key": "'.$metric.'", "value": '.$value.'}\'';
         

@@ -35,4 +35,4 @@ COPY ./10-nginx.conf /etc/collectd/managed_config/
 
 EXPOSE 8000
 
-CMD /etc/init.d/signalfx-agent start && /usr/bin/supervisord -n -c /etc/supervisord.conf
+CMD /etc/init.d/signalfx-agent start

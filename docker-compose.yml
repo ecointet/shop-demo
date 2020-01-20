@@ -14,9 +14,10 @@ services:
             - /usr/data/var
         privileged: true
         environment:
-            - TOKEN=
+            - TOKEN=<YOUR-SFX-TOKEN>
             - HOST=my-webserver
             - REALM=us0
             - BUYMETRIC=ecointet.shop
-            - BACKGROUND=https://miro.medium.com/max/2658/1*2NArbYb4bKnnacnGKphY8g.jpeg
-            - LOGO=https://upload.wikimedia.org/wikipedia/fr/0/09/Logo_JobTeaser.png
+            - BACKGROUND=
+            - LOGO=
+            - EMAIL=ecointet@signalfx.com

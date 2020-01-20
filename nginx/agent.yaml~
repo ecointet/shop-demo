@@ -5,7 +5,7 @@ ingestUrl: {"#from": "/etc/signalfx/ingest_url", default: "https://ingest.${REAL
 apiUrl: {"#from": "/etc/signalfx/api_url", default: "https://api.${REALM}.signalfx.com"}
 cluster: {"#from": "/etc/signalfx/cluster", optional: true}
 hostname: ${HOST}
-intervalSeconds: 5
+intervalSeconds: 1
 
 logging:
   # Valid values are 'debug', 'info', 'warning', and 'error'
@@ -30,3 +30,24 @@ monitors:
   - type: collectd/nginx
     host: localhost
     port: 8000
+  - type: sql
+    host: localhost
+    port: 5432
+    dbDriver: mysql
+    params:
+      user: username
+      password: password
+    # The `host` and `port` values from above (or provided through auto-discovery) should be interpolated
+    # to the connection string as appropriate for your database driver.
+    # Also, the values from the `params` config option above can be
+    # interpolated.
+    connectionString: '{{.user}}:{{.password}}@/'
+    queries:
+      - query: 'SELECT COUNT(*) as count, plugin, host FROM mysql.user GROUP BY plugin, host;'
+        metrics:
+          - metricName: "ecointet.users"
+            valueColumn: "count"
+            dimensionColumns: ["plugin", "host"]
+  - type: python-monitor
+    scriptFilePath: "/etc/signalfx/zabbix.py"
+    auth: "7b38879902e6b234d48acf5951cec387"

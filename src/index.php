@@ -11,7 +11,9 @@ else if ($detect->isAndroidOS()) $device = "Android";
 
 $_SESSION["device"] = $device;
 
-
+//DEFAULT
+if (!isset($_ENV["LOGO"]) || empty($_ENV["LOGO"])) $_ENV["LOGO"] = "/img/customer/default-logo.png";
+if (!isset($_ENV["BACKGROUND"]) || empty($_ENV["BACKGROUND"])) $_ENV["BACKGROUND"] = "/img/customer/default-background.png";
 if (!isset($_SESSION['buyer']))
 {
     $_SESSION['buyer'] = readable_random_string();
@@ -177,13 +179,14 @@ function DoAction(v_action, v_value)
 			    <div class="container">
 			    	<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
-				        <a href="/"><img src="<? echo $_ENV["LOGO"]; ?>" alt="" title="" height="30px"/></a>
+				        <a href="/"><img src="<? echo $_ENV["LOGO"]; ?>" alt="" title="" height="50px"/></a>
 				      </div>
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
 				          <li class="menu-active"><a href="#home">Home</a></li>
 				          <li><a href="javascript:Simulation();">simulate Customers</a></li>
 				          <li><a href="#service">share with people</a></li>
+						  <li><a href="#jenkins">Canary Push</a></li>
 						  <li><a href="/listen">Feedbacks</a></li>
 				          <li><a href="#faq">Faq</a></li>
 				          <li class="menu-has-children"><a href="">DEBUG</a>
@@ -268,6 +271,50 @@ function DoAction(v_action, v_value)
 								</p>								
 							</div>
 						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="single-service">
+								<h4><span class="lnr lnr-rocket"></span>Technical Skills</h4>
+								<p>
+									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+								</p>				
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="single-service">
+								<h4><span class="lnr lnr-diamond"></span>Highly Recomended</h4>
+								<p>
+									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+								</p>								
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="single-service">
+								<h4><span class="lnr lnr-bubble"></span>Positive Reviews</h4>
+								<p>
+									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+								</p>									
+							</div>
+						</div>						
+					</div>
+				</div>	
+			</section>
+			<!-- End service Area -->
+
+				<!-- Start Jenkins Area -->
+			<section class="service-area section-gap" id="jenkins">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="col-md-8 pb-40 header-text">
+							<h1>
+							Do a Canary Push, in production?</h1>
+							<p>
+								<a href="api.php?kill=true"><img src="img/jenkins.png" /><br>If you know what you are doing: HERE</a>
+								<div style="align:center;font-size:15px"><a href="api.php?run=true">To revert and Fix the app: HERE</a></div>
+								
+							</p>
+						</div>
+					</div>
+					
 						<div class="col-lg-4 col-md-6">
 							<div class="single-service">
 								<h4><span class="lnr lnr-rocket"></span>Technical Skills</h4>
