@@ -1,8 +1,8 @@
-# The Pwny Shop! (Demo)
+# The Pwny Shop!
 A Cool Website (desktop & mobile) to demonstrate the Splunk SignalFx real-time monitoring.
 Add to your cart as many as items your want, and check out!
 
-![Main Screen](https://github.com/ecointet/watch-store/blob/master/src/img/github-overview.png?raw=true)
+![Main Screen](https://github.com/ecointet/shop-demo/blob/master/src/img/github-overview.png?raw=true)
 
 ## Features
 
@@ -18,10 +18,12 @@ Add to your cart as many as items your want, and check out!
 
 - Configure your own SignalFx Detector : Ex: send a slack message if more than 13 items are in cart but not sold.
 
+![Main Screen](https://github.com/ecointet/shop-demo/blob/master/src/img/pwnyshop.png?raw=true)
+
 ## Configuration
 
 ### STEP 1
-`git clone https://github.com/ecointet/watch-store`
+`git clone https://github.com/ecointet/shop-demo`
 *Requirements : git, docker, docker-compose*
 
 ### STEP 2
@@ -32,8 +34,9 @@ Edit the file `docker-compose.yml` to set your own variables.
             - HOST=my-webserver
             - REALM=us0
             - BUYMETRIC=ecointet-buy
+            - EMAIL=<YOUR-EMAIL>
 
-[Download this dashboard](https://raw.githubusercontent.com/ecointet/watch-store/master/template-dashboard.json) and edit it (search & replace):
+[Download this dashboard](https://raw.githubusercontent.com/ecointet/shop-demo/master/template-dashboard.json) and edit it (optional, search & replace):
 
 - Replace **ecointet-buy** with your own metric (cf **BUYMETRIC** from STEP 2).
 - Replace **my-webserver** with your own host (cf **HOST** from STEP 2).
@@ -43,7 +46,7 @@ Then import the file/dashboard to your [SignalFx app](app.signalfx.com)
 
 ### STEP 3
 
-In the main folder (watch-store), Execute the commande `docker-compose up`
+In the main folder (shop-demo), Execute the commande `docker-compose up`
 
 And go to [localhost:8181](http://localhost:8181)
 
