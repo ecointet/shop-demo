@@ -54,3 +54,4 @@ And go to [localhost:8181](http://localhost:8181)
 - Simulate customers & buyers with the button "Simulate Buyers"
 - Share the app with the button "Share with people"
 - Customize the app by pasting IMG URLs in the docker-compose.yml file
+- Go inside the docker container: docker exec -it shop-demo_php-shop-demo_1 /bin/bash

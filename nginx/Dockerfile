@@ -20,17 +20,20 @@ RUN apt-get update
 RUN apt-get install -y emacs
 #RUN apt-get install -y mysql-server
 RUN apt-get install -y apt-transport-https
-RUN curl -sSL https://dl.signalfx.com/debian.gpg > /etc/apt/trusted.gpg.d/signalfx.gpg
-RUN echo 'deb https://dl.signalfx.com/debs/signalfx-agent/final /' > /etc/apt/sources.list.d/signalfx-agent.list
+RUN curl -sSL https://splunk.jfrog.io/splunk/signalfx-agent-deb/splunk-B3CD4420.gpg > /etc/apt/trusted.gpg.d/splunk.gpg
+RUN echo 'deb https://splunk.jfrog.io/splunk/signalfx-agent-deb release main' > /etc/apt/sources.list.d/signalfx-agent.list
+#RUN curl -sSL https://dl.signalfx.com/debian.gpg > /etc/apt/trusted.gpg.d/signalfx.gpg
+#RUN echo 'deb https://dl.signalfx.com/debs/signalfx-agent/final /' > /etc/apt/sources.list.d/signalfx-agent.list
 RUN apt-get update
 RUN apt-get install -y signalfx-agent
 RUN echo "rb2yT1_ej4yXYkIdSQzp_w" > "/etc/signalfx/token"
 
+RUN apt-get install -y stress
 
 COPY ./agent.yaml /etc/signalfx/
 #COPY ./sql-script.sql /etc/signalfx/
 COPY ./zabbix.py /etc/signalfx/
-
+COPY ./signalfx-agent-beta /etc/signalfx/signalfx-agent-beta
 COPY ./10-nginx.conf /etc/collectd/managed_config/
 
 EXPOSE 8000

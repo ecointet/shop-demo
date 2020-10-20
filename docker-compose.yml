@@ -14,7 +14,7 @@ services:
             - /usr/data/var
         privileged: true
         environment:
-            - TOKEN=<YOUR-SFX-TOKEN>
+            - TOKEN=
             - HOST=my-webserver
             - REALM=us0
             - BUYMETRIC=ecointet.shop
